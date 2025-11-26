@@ -1,18 +1,19 @@
 
 import React from 'react' 
-import Navbar from './Navbar'
+
 import BBanner from '../assets/BBanner.jpg';
 
 function Banner() {
   return (
     <>
-    <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row items-center my-10'>
-      <div className='w-full md:w-1/2 md:mt-32 space-y-8 order-2 md:order-1'>
-      
-      <h1 className='text-4xl font-bold '>Hello, welcomes here to learn something {""}
+    <div className='max-w-screen-3xl mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'>
+      <div className='w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36'>
+      <div className='space-y-8'>
+      <h1 className='text-2xl font-bold '>
+        Hello, welcomes here to learn something {" "}
         <span className="text-pink-500">new everyday!!!</span>
         </h1>
-      <p className='text-xl'>Bookstore is the best place to find books of all genres and authors.
+      <p className='text-sm md:text-xl '>Bookstore is the best place to find books of all genres and authors.
       Explore our vast collection and discover your next favorite read with us.
       books of all genres and authors.
       </p>
@@ -28,11 +29,14 @@ function Banner() {
               </svg>
               <input type="text" className="grow" placeholder="Email" />
             </label>
-      
-      <button className="btn btn-secondary">Secondary</button>
+
       </div>
-    <div className='w-full md:w-1/2  flex justify-center order-1 md:order-2 mt-10 md:mt-0'>
-    <img src={BBanner} alt="Banner" className="md:w-[550px] md:h-[460px]"/>
+      
+      <button className="btn mt-6 btn-secondary bg-pink-500 text-white" >Get Started</button>
+      </div>
+
+    <div className='order-1 w-full mt-20 md:w-1/2'>
+    <img src={BBanner} alt="Banner" className="md:w-[650px] md:h-[460px] md:ml-12"/>
     </div>
     </div>
     </>
