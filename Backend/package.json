@@ -1,0 +1,26 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "homepage": "https://github.com/binisha77/BookStore#readme",
+  "bugs": {
+    "url": "https://github.com/binisha77/BookStore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binisha77/BookStore.git"
+  },
+  "license": "ISC",
+  "author": "sovitha",
+  "type": "module",
+  "main": " index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
