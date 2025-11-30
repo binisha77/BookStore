@@ -66,10 +66,24 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free offered course</h1>
           <p>
-            Books available for free Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Mollitia fugiat in suscipit incidunt sit amet iste
-            consequatur odio cum, eius molestias voluptatum similique minima
-            fuga est enim id facilis{" "}
+            Books play a vital role in our lives as they are a rich
+             source of knowledge, wisdom, and imagination. 
+             They educate us about history, science, and the
+              world around us while also enhancing our 
+              creativity and critical thinking skills.
+               Reading books improves our vocabulary, 
+               communication, and comprehension, helping 
+               us express ourselves more effectively.
+                Beyond learning, books provide mental
+                 relaxation and a way to escape stress, 
+                 keeping the mind engaged and sharp. 
+                 They also preserve culture, traditions, 
+                 and historical events, allowing us to 
+                 understand and appreciate diverse 
+                 perspectives. Ultimately, books 
+                 contribute to personal growth, 
+                 shaping our thoughts, values, 
+                 and lifelong learning.{" "}
           </p>
         </div>
 

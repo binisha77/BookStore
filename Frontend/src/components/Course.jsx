@@ -28,10 +28,7 @@ function Course() {
             <span className="text-pink-500"> Here! :)</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-            consectetur eligendi sunt quis, laudantium doloribus quia, ea fugit
-            voluptatibus quasi modi velit. Temporibus laborum dolor aliquid
-            deleniti commodi autem quis.
+            Courses are structured programs of study designed to teach specific skills, knowledge, or subjects to learners. They provide a systematic way to gain expertise, whether for academic, professional, or personal development purposes. Through courses, individuals can explore new fields, improve existing skills, and stay updated with industry trends. They often combine theory with practical exercises, helping learners apply what they have learned in real-world scenarios. Online and offline courses offer flexibility, making education accessible to people of all ages and backgrounds. Ultimately, courses empower individuals to grow, achieve their goals, and enhance their career opportunities.
           </p>
 
           <Link to="/">

@@ -45,10 +45,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <a href="/">Contact</a>
       </li>
       <li>
-        <a href="/about">About</a>
+        <a href="/">About</a>
       </li>
     </>
   );
