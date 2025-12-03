@@ -24,10 +24,11 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mongoose": "^5.13.23",
-    "nodemon": "^3.1.11"
+    "mongoose": "^5.13.23"
+    
   },
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+     "nodemon": "^3.1.11"
   }
 }
