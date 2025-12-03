@@ -79,12 +79,12 @@ app.use("/user", userRoute);
 if (process.env.NODE_ENV === "production") {
   const dirPath = path.resolve();
 
-  // Serve static files
-  app.use(express.static(path.join(dirPath, "Frontend/dist")));
+  // Serve static files from Frontend/dist
+  app.use(express.static(path.join(dirPath, "../Frontend/dist")));
 
   // Wildcard route for SPA
   app.get(/.*/, (req, res) => {
-    res.sendFile(path.join(dirPath, "Frontend/dist", "index.html"));
+    res.sendFile(path.join(dirPath, "../Frontend/dist/index.html"));
   });
 }
 
@@ -92,4 +92,3 @@ if (process.env.NODE_ENV === "production") {
 app.listen(PORT, () => {
   console.log(`🚀 Server listening on port ${PORT}`);
 });
-
